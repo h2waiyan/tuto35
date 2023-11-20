@@ -1,7 +1,10 @@
 const dbConfig = require("../config/db.config");
 const Sequelize = require("sequelize");
 
-const sequelize = new Sequelize(`postgres://hwy:mcWmWF404ZkN69dd5nviVnQ3jMMBIwWP@dpg-cldeodvgsrdc73fk39m0-a/tours_tu8r`, {dialect: "postgres"})
+const sequelize = new Sequelize(
+  `postgres://hwy:mcWmWF404ZkN69dd5nviVnQ3jMMBIwWP@dpg-cldeodvgsrdc73fk39m0-a/tours_tu8r`,
+  { dialect: "postgres" }
+);
 
 // const sequelize = new Sequelize(dbConfig.DB, dbConfig.USER, dbConfig.PASSWORD, {
 //   host: dbConfig.HOST,
