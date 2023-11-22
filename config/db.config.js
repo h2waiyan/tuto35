@@ -1,9 +1,9 @@
 //CLOUD
 module.exports = {
-  HOST: "dpg-cldeodvgsrdc73fk39m0-a",
-  USER: "hwy",
-  PASSWORD: "mcWmWF404ZkN69dd5nviVnQ3jMMBIwWP",
-  DB: "tours_tu8r",
+  HOST: "localhost",
+  USER: "santoe",
+  PASSWORD: "santoe",
+  DB: "blogs",
   DIALECT: "postgres",
   pool: {
     max: 5,
